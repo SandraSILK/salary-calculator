@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Sandra Ilczuk, sandra_i@poczta.onet.pl">
+	<title>przeliczanie stawek B2B</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<!--background's author <a href="http://www.freepik.com/free-vector/pattern-of-colored-dots_920282.htm">Designed by Freepik</a> -->
+	<link rel="stylesheet" href="fontello-a1e87a76/css/fontello.css" text="text/css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3" id="menu">
+				<div class="col-lg-12" id="title">
+				<h4>wprowadź dane</h4>
+				<p><label for="name" class="name_text">- imie w formie odmienionej</label>
+					<input type="text" id="names"></input></p>	
+				<p><label for="day" class="day_text">- data rozmowy</label>
+					<input type="date" name="day" id="day"></p>
+				<p><label for="availability" id="availability_text">- dostępność w miesiącach na UoP<br>
+						<input type="number" value="1" min="1" max="3" name="availability" id="availability"></p>
+				<p><label for="netto" class="netto">- stawka dzienna</label>
+					<input type="number" name="netto" id="netto"> zł</p>
+					<button type="button" class="save">generuj <i class="icon-angle-circled-right"></i></button>
+
+				</div>
+			</div>
+			<div class="col-lg-9" id="page">
+				<h1>Twój mail:</h1>
+				<p>Panie <span class="name">XXXXXX</span>,</p>
+ 
+	<p>Dziękuję za przyjemną i konstruktywną rozmowę telefoniczną (<span class="day"></span>). Podsumujmy nasze ustalenia:
+		<ul>
+			<li>Obowiązuje Pana obecnie wypowiedzenie <span class="notice_days"></span> miesiące.</li>
+			<li>Współpraca na zasadach B2B.</li>
+			<li>Ustaliliśmy stawkę dzienną w wysokości <span class="salary"></span>zł netto.</li>
+ 		</ul>
+ 	</p>
+ 	<p>Ustaliliśmy stawkę dzienną w wysokości <span class="salary"></span>zł netto md + VAT (md: na fakturze za przepracowany dzień - 8h) przy założeniu współpracy B2B. Przekalkulujmy na szybko, co to dla Pana oznacza.
+		<ul>
+			<li>21 dni pracujących w miesiącu razy <span class="salary"></span>zł daje Panu <span class="salary_month_netto"></span>zł netto, po odliczeniu kosztów (ZUS, podatek dochodowy 19%, księgowość - która za Pana prowadzi formalności) na czysto zostaje <span class="salary_month"></span>zł na rękę miesięcznie ( (<span class="vat_salary"></span>zł - <span class="salary_month_netto"></span>zł) - 19% CIT – 50zł = <span class="salary_month"></span>zł  ).</li>
+			<li>Koszty VAT jako Pracodawcy są po naszej stronie, więc Pan wystawia nam przykładowo fakturę netto na kwotę <span class="salary_month_netto"></span>zł miesięcznie, my przelewamy Panu wynagrodzenie powiększone o 23% VAT tj. łącznie <span class="vat_salary"></span>zł. VAT w wysokości <span class="vat"></span>zł zwraca Pan do Urzędu Skarbowego.</li>
+			<li>oczywiście w przypadku przepracowania większej liczby godzin / dni, Pańskie wynagrodzenie miesięczne proporcjonalnie wzrasta.</li>
+		</ul></p>
+	<p>Posiadając zarejestrowaną działalność gospodarczą przez 2 lata płaci Pan najniższą składkę ZUS (ok. 600zł / miesiąc), może Pan wrzucać w koszty firmy telefon / abonament komórkowy, herbaty, kawy, czy laptopa itp. Istnieje także możliwość kupna nowego samochodu w leasing itd. Przy działalności gospodarczej nie posiada Pan prawa do płatnego urlopu oraz L4 - koszty te wliczone są w wyższe zarobki B2B i zalety posiadania działalności gospodarczej. Niezaprzeczalny atut B2B - elastyczność i nieporównywalnie większe szanse znalezienia zatrudnienia w obszarze IT 
+	(po prostu ponad 80% firm w Polsce preferuje współpracę B2B w sektorze IT).</p>
+
+	<p>Dziękuję za podesłanie mi Pańskiego CV - dzisiaj przedstawię Pański profil klientowi. Odpowiedź z jego strony powinna nadejść w przeciągu 7-10 dni - wówczas skontaktuję się z Panem, niezależnie od finalnej decyzji klienta.</p>
+
+	<p>W załączniku podsyłam Panu także dokładną specyfikację omawianego stanowiska pracy.
+	W razie jakichkolwiek pytań lub wątpliwości - jestem do Pańskiej dyspozycji.</p>
+	<p>Pozdrawiam,</p>
+	<p>XXX XXX</p>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12" id="footer">
+				<p><i class="icon-giraffe"></i>Sandra Ilczuk&copy2017</p>
+			</div>
+		</div>
+	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+﻿body {
+	/*bodybacground from <a href="http://www.freepik.com/free-vector/pattern-of-colored-dots_920282.htm">Designed by Freepik</a>*/
+		background-image: url('Pattern-colored-dots/tlo.jpg');
+}
+.container {
+	margin-top: 3%;
+	height: auto;
+	text-align: justify;
+	line-height: 20px;
+	font-size: 1em;
+	color: #252839;
+}
+#menu {
+	background: #859390;
+	padding: .25%;
+	border-right: 1.5px dashed #252839;
+	color: #C0DFD9;
+	border-top-left-radius: 8px;
+}
+h4 {
+	color: #F2B632;
+	letter-spacing: 0.18em;
+	padding-bottom: 8%;
+	padding-top: 5%;
+	text-align: center;
+	border-bottom: 1px dashed #252839;
+}
+.name_text {
+	padding-top: 5%;
+}
+input[type="date"], input[type="text"], input[type="number"] {
+	width: 140px;
+	background: #B3C2BF;
+	border-right: 1px solid #B3C2BF;
+	border-left: 1px solid #B3C2BF;
+	border-top: 1px solid #B3C2BF;
+	border-bottom: 1px solid #F2B632;
+	color: #252839;
+	text-align: center;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+
+}
+input[type="number"] {
+	width: 50px;
+}
+button {
+	width: 100px;
+	height: 25px;
+	border: 1px solid #859390;
+	background-color: #B5B5B7;
+	color: #252839;
+}
+button:hover {
+	border: 1px solid #F2B632; 
+	background-color: #BEBEC0;
+}
+
+#page {
+	border-top-right-radius: 8px;
+	background: #B3C2BF;
+	padding: 2%;
+}
+#page h1 {
+	letter-spacing: .1em;
+}
+#footer {
+	color: #F2B632;
+	margin-bottom: 0.5%;
+	height: 45px;
+	background: #3C685F; 
+	text-align: center; 
+	padding-top: 13px;
+	border-top: 1px solid #F2B632;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}

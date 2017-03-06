@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="giraffe" unicode="&#xe81b;" d="M600 825c-100-150-189-250-300-350-106-95-300-63-300-200l0-50c0-50 50-98 50-150l0-50c0-75-25-75-50-150l50 0 100 150 0-150 50 0 0 250s0 50 50 50 50-50 50-50l0-250 50 0 0 225 50-75 50-150 50 0-77 314c30 18 27 51 27 86 0 47 0 100 0 150l200 275 72-22c15-5 28-3 28 10 0 25-16 30-25 37z" horiz-adv-x="750" />
+
+<glyph glyph-name="angle-circled-right" unicode="&#xf138;" d="M400 72l254 253q10 11 10 25t-10 25l-254 254q-10 10-25 10t-25-10l-57-57q-11-11-11-26t11-25l171-171-171-171q-11-11-11-25t11-25l57-57q11-11 25-11t25 11z m457 278q0-117-57-215t-156-156-215-58-216 58-155 156-58 215 58 215 155 156 216 58 215-58 156-156 57-215z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>
